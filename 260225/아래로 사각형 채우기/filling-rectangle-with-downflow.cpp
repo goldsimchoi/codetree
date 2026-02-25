@@ -5,7 +5,7 @@ int main() {
     // Please write your code here.
 
     int n=0;
-    cin << n;
+    cin >> n;
     int arr[n][n]={0,};
     int k=1;
 
@@ -20,7 +20,6 @@ int main() {
     for(int i=0; i<n;i++){
         for(int j=0; j<n; j++){
             cout << arr[j][i]; << ' ';
-    
         }
         cout << '\n';
     }
