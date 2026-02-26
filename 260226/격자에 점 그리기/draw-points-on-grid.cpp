@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0; i<m; i++){
         cin >> a >> b;
-        arr[a][b]=k;
+        arr[a-1][b-1]=k;
         k++;
     }
 
