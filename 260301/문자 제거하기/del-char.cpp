@@ -13,7 +13,7 @@ int main() {
 
         cin >> n;
 
-        if(n>str.length()){
+        if(n>=str.length()){
             str.erase(str.length()-1,1);
             cout << str << '\n';
         }
