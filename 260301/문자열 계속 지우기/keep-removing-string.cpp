@@ -24,13 +24,12 @@ int main() {
             for(int j=0;j<b;j++){
                 if(A[i+j]!=B[j]){
                     key=0;
-
                     break;
 
                 }
             }
 
-            if(key =1){
+            if(key ==1){
                 idx = i;
                 break;
             }
