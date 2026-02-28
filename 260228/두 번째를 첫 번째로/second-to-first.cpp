@@ -9,7 +9,7 @@ int main() {
     cin >> str;
     for(int i=0; i<str.length();i++){
         if(str[i]==str[1]){
-            str[i]=str[0]
+            str[i]=str[0];
         }
     }
 
