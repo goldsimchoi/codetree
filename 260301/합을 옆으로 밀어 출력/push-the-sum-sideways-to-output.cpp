@@ -14,6 +14,6 @@ int main() {
 
     }
 
-    cout << substr(1,str.length()-1)
+    cout << str.substr(1,str.length()-1)
     return 0;
 }
