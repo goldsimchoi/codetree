@@ -13,7 +13,8 @@ int main() {
         sum += stoi(str); 
 
     }
-
-    cout << str.substr(1,str.length()-1)
+    str = to_string(sum);
+    
+    cout << str.substr(1,str.length()-1) + str.substr(0,1);
     return 0;
 }
