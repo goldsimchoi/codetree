@@ -23,6 +23,7 @@ int main() {
     }
 
 
+    idx=0;
     while(idx < s2.length()){
 
         if((int)s2[idx]>47 && (int)s2[idx]<58){
@@ -38,7 +39,7 @@ int main() {
 
 
 
-    cout << stoi(s1); + stoi(s2);
+    cout << stoi(s1) + stoi(s2);
 
     return 0;
 }
