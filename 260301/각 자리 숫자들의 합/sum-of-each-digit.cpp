@@ -12,7 +12,7 @@ int main() {
     string str=to_string(n);
     
     for(int i=0; i<str.length();i++){
-        sum+=(int)str[i];    
+        sum+=str[i]-'0';    
     }
 
     cout << sum;
