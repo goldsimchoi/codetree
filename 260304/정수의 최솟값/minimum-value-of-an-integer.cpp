@@ -17,7 +17,7 @@ void func(int a,int b, int c){
         min = b;
     }
 
-    if(a<min){
+    if(c<min){
         min = c;
     }
 
