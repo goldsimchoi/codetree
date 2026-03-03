@@ -7,11 +7,7 @@ int a, b, c;
 
 void func(int a,int b, int c){
 
-    int min=0;
-
-    if(a<min){
-        min = a;
-    }
+    int min=a;
 
     if(b<min){
         min = b;
