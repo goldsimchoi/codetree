@@ -6,7 +6,7 @@ int a, b;
 
 int func(int a,int b){
 
-    int cnt=0;
+    int sum=0;
 
     for(int i=a;i<=b;i++){
         int is_prime =0;
@@ -27,13 +27,13 @@ int func(int a,int b){
         }
 
         if(is_prime){
-            cnt++;
+            sum+=i;
         }
 
     }
 
 
-    return cnt;
+    return sum;
 }
 
 
