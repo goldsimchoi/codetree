@@ -7,8 +7,10 @@ int a, b;
 
 void func(int a,int b){
 
+    int tmp=a;
     for(int i=0;i<b-1;i++){
-        a*=a;
+        
+        a*=tmp;
     }
 
     cout << a;
