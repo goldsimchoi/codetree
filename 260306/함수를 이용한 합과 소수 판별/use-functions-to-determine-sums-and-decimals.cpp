@@ -7,15 +7,18 @@ int a, b;
 
 int check(int x){
 
+    if(x==1) return 0;
+    if(x==2) return 1;
+
     int idx=0;
-    for(int i=1;i<x;i++){
+    for(int i=3;i<x;i+=2){
         if(x%i==0){
 
             idx++;
 
         }
 
-        if(idx==2){
+        if(idx==1){
             return 0;
         }
 
@@ -49,8 +52,6 @@ int func(int x,int y){
     cout << cnt;
 
 }
-
-
 
 int main() {
     cin >> a >> b;
